@@ -1,91 +1,91 @@
 [
     {
       "recipe_id": 1,
-      "recipe_name": "Grilled Salmon with Lemon-Herb Quinoa",
+      "recipe_name": "Grilled Salmon",
       "short_description": "A succulent grilled salmon paired with flavorful lemon-herb quinoa.",
-      "ingredients": ["400g salmon fillets", "200g quinoa", "1 lemon", "Fresh herbs", "Salt", "Pepper", "Olive oil"],
+      "ingredients": ["400g salmon fillets", "200g quinoa", "1 lemon", "Fresh herbs"],
       "preparing_time": "30 min",
       "calories": "350 calories",
       "recipe_image": "https://i.ibb.co/NrjcyVf/One.png"
     },
     {
       "recipe_id": 2,
-      "recipe_name": "Vegetable Stir-Fry with Tofu",
+      "recipe_name": "Vegetable Stir-Fry",
       "short_description": "A colorful stir-fry packed with nutrient-rich vegetables and protein-packed tofu.",
-      "ingredients": ["300g firm tofu", "Assorted vegetables (bell peppers, broccoli, carrots, snow peas)", "Soy sauce", "Ginger", "Garlic", "Sesame oil"],
+      "ingredients": ["300g firm tofu", "Soy sauce", "Garlic", "Sesame oil"],
       "preparing_time": "25 min",
       "calories": "250 calories",
       "recipe_image": "https://i.ibb.co/HhX6Wf8/Two.png"
     },
     {
       "recipe_id": 3,
-      "recipe_name": "Quinoa Salad with Avocado and Black Beans",
+      "recipe_name": "Quinoa Salad ",
       "short_description": "A refreshing salad featuring quinoa, creamy avocado, and protein-rich black beans.",
-      "ingredients": ["200g quinoa", "1 ripe avocado", "200g black beans", "Cherry tomatoes", "Red onion", "Lime", "Cilantro", "Salt", "Pepper"],
+      "ingredients": ["200g quinoa", "1 ripe avocado", "Soy sauce", "200g black beans", "Cherry tomatoes"],
       "preparing_time": "20 min",
       "calories": "280 calories",
       "recipe_image": "https://i.ibb.co/qYs5xXG/Three.png"
     },
     {
       "recipe_id": 4,
-      "recipe_name": "Mediterranean Chickpea Salad",
+      "recipe_name": "Mediterranean Salad",
       "short_description": "A vibrant salad bursting with Mediterranean flavors and protein-packed chickpeas.",
-      "ingredients": ["400g chickpeas", "Cucumber", "Tomatoes", "Red onion", "Kalamata olives", "Feta cheese", "Olive oil", "Lemon juice", "Garlic", "Dried oregano", "Salt", "Pepper"],
+      "ingredients": ["400g chickpeas", "Kalamata olives", "Lemon juice", "Dried oregano"],
       "preparing_time": "15 min",
       "calories": "320 calories",
       "recipe_image": "https://i.ibb.co/r2w4Mfy/Four.png"
     },
     {
       "recipe_id": 5,
-      "recipe_name": "Zucchini Noodles with Pesto",
+      "recipe_name": "Zucchini Noodles",
       "short_description": "A light and flavorful dish featuring zucchini noodles tossed in homemade pesto sauce.",
-      "ingredients": ["4 large zucchinis", "Fresh basil leaves", "Pine nuts", "Garlic", "Parmesan cheese", "Olive oil", "Lemon juice", "Salt", "Pepper"],
+      "ingredients": ["4 large zucchinis", "Fresh basil leaves", "Pine nuts", "Garlic","Pepper"],
       "preparing_time": "20 min",
       "calories": "230 calories",
       "recipe_image": "https://i.ibb.co/hFqLjJh/Five.png"
     },
     {
       "recipe_id": 6,
-      "recipe_name": "Baked Chicken with Roasted Vegetables",
+      "recipe_name": "Baked Chicken",
       "short_description": "Tender baked chicken served with a colorful array of roasted vegetables.",
-      "ingredients": ["4 chicken breasts", "Assorted vegetables (carrots, bell peppers, potatoes, onions)", "Olive oil", "Garlic powder", "Paprika", "Thyme", "Salt", "Pepper"],
+      "ingredients": ["4 chicken breasts",  "Olive oil", "Garlic powder", "Paprika", "Thyme"],
       "preparing_time": "40 min",
       "calories": "300 calories",
       "recipe_image": "https://i.ibb.co/q94D6xB/Six.png"
     },
     {
       "recipe_id": 7,
-      "recipe_name": "Spinach and Mushroom Frittata",
+      "recipe_name": "Spinach Mushroom",
       "short_description": "A nutritious frittata filled with spinach, mushrooms, and creamy cheese.",
-      "ingredients": ["6 eggs", "Spinach", "Mushrooms", "Onion", "Garlic", "Milk", "Cheddar cheese", "Salt", "Pepper"],
+      "ingredients": ["6 eggs", "Spinach", "Mushrooms","Milk", "Cheddar cheese"],
       "preparing_time": "35 min",
       "calories": "280 calories",
       "recipe_image": "https://i.ibb.co/W0PhpHZ/Seven.png"
     },
     {
       "recipe_id": 8,
-      "recipe_name": "Black Bean and Sweet Potato Tacos",
+      "recipe_name": "Black Bean",
       "short_description": "Hearty tacos filled with black beans, sweet potatoes, and flavorful spices.",
-      "ingredients": ["400g black beans", "2 sweet potatoes", "Tortillas", "Avocado", "Lime", "Cilantro", "Cumin", "Chili powder", "Garlic powder", "Salt", "Pepper"],
+      "ingredients": ["400g black beans", "2 sweet potatoes", "Tortillas", "Avocado",  "Cumin"],
       "preparing_time": "30 min",
       "calories": "270 calories",
       "recipe_image": "https://i.ibb.co/wCQzzKV/Eight.png"
     },
     {
       "recipe_id": 9,
-      "recipe_name": "Lemon Garlic Shrimp Pasta",
+      "recipe_name": "Lemon Garlic",
       "short_description": "A delightful pasta dish featuring succulent shrimp, garlic, and zesty lemon.",
-      "ingredients": ["300g shrimp", "Pasta of your choice", "Garlic", "Lemon", "Parmesan cheese", "Olive oil", "Red pepper flakes", "Salt", "Pepper", "Fresh parsley"],
+      "ingredients": ["300g shrimp", "Pasta of your choice","Tortillas",  "Red pepper flakes","Fresh parsley"],
       "preparing_time": "25 min",
       "calories": "320 calories",
       "recipe_image": "https://i.ibb.co/M5kcLCf/Nine.png"
     },
     {
       "recipe_id": 10,
-      "recipe_name": "Berry Chia Seed Pudding",
+      "recipe_name": "Berry Chia ",
       "short_description": "A nutritious and satisfying pudding made with chia seeds and topped with fresh berries.",
-      "ingredients": ["Chia seeds", "Almond milk", "Honey or maple syrup", "Vanilla extract", "Mixed berries (strawberries, blueberries, raspberries)", "Granola (optional)"],
-      "preparing_time": "5 min (+overnight chilling)",
+      "ingredients": ["Chia seeds", "Almond milk", "Honey or maple syrup", "Vanilla extract"],
+      "preparing_time": "5 min",
       "calories": "200 calories",
       "recipe_image": "https://i.ibb.co/TWgfqXK/Ten.png"
     }

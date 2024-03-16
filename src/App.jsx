@@ -1,11 +1,20 @@
+import { useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Card from './components/Card/Card'
 import Header from './components/Header/Header'
 import Recipe from './components/Recipe/Recipe'
+import Want from './components/Want/Want'
 
 
 function App() {
+
+  const [wantCook, setWantCook] =useState([])
+
+  const handleCooking = cook =>{
+    const newCook = [...wantCook , cook]
+    setWantCook(newCook);
+  }
 
   return (
 
@@ -13,9 +22,10 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Recipe></Recipe>
-      <Card></Card>
-      {/* <h1>Vite + React</h1>
-      <h1 className="text-3xl bg-slate-600">New</h1> */}
+      <div className='flex gap-5 mb-10'>
+        <Card handleCooking={handleCooking}></Card>
+        <Want wantCook={wantCook}></Want>
+      </div>
     </div>
 
   )
