@@ -5,15 +5,35 @@ import Card from './components/Card/Card'
 import Header from './components/Header/Header'
 import Recipe from './components/Recipe/Recipe'
 import Want from './components/Want/Want'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 function App() {
 
-  const [wantCook, setWantCook] =useState([])
+  const [wantCook, setWantCook] = useState([])
+  const [prepearing, setPrepearing] =useState([])
 
-  const handleCooking = cook =>{
-    const newCook = [...wantCook , cook]
-    setWantCook(newCook);
+  const handlePrepearing = (cooking,recipe_id) =>{
+    const newPrepearing = [...prepearing, cooking]
+    setPrepearing(newPrepearing)
+    console.log('remove bookmark', recipe_id);
+    // const remainingWant = prepearing.filter(prepearing => prepearing.recipe_id !== recipe_id);
+    // setPrepearing(remainingWant)
+  }
+
+
+  const handleCooking = (cook) => {
+    const isExist = wantCook.find(item => item.recipe_id == cook.recipe_id);
+    if (!isExist) {
+      const newCook = [...wantCook, cook]
+      setWantCook(newCook);
+    }
+    else {
+      toast("Already Added");
+    }
+
   }
 
   return (
@@ -23,8 +43,12 @@ function App() {
       <Banner></Banner>
       <Recipe></Recipe>
       <div className='flex gap-5 mb-10'>
-        <Card handleCooking={handleCooking}></Card>
-        <Want wantCook={wantCook}></Want>
+        <Card 
+        handleCooking={handleCooking}
+        ></Card>
+        <Want wantCook={wantCook}
+        handlePrepearing={handlePrepearing} prepearing={prepearing}></Want>
+        <ToastContainer />
       </div>
     </div>
 
