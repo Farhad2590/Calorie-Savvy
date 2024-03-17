@@ -10,8 +10,8 @@
     },
     {
       "recipe_id": 2,
-      "recipe_name": "Vegetable Stir-Fry",
-      "short_description": "A colorful stir-fry packed with nutrient-rich vegetables and protein-packed tofu.",
+      "recipe_name": "Vegetable Fry",
+      "short_description": "A colorful stir-fry nutrient rich vegetables and protein packed tofu.",
       "ingredients": ["300g firm tofu", "Soy sauce", "Garlic", "Sesame oil"],
       "preparing_time": "25 min",
       "calories": "250 calories",
@@ -20,7 +20,7 @@
     {
       "recipe_id": 3,
       "recipe_name": "Quinoa Salad ",
-      "short_description": "A refreshing salad featuring quinoa, creamy avocado, and protein-rich black beans.",
+      "short_description": "A refreshing salad featuring quinoa, protein rich black beans.",
       "ingredients": ["200g quinoa", "1 ripe avocado", "Soy sauce", "200g black beans", "Cherry tomatoes"],
       "preparing_time": "20 min",
       "calories": "280 calories",
@@ -29,7 +29,7 @@
     {
       "recipe_id": 4,
       "recipe_name": "Mediterranean Salad",
-      "short_description": "A vibrant salad bursting with Mediterranean flavors and protein-packed chickpeas.",
+      "short_description": "A vibrant salad bursting with protein packed chickpeas.",
       "ingredients": ["400g chickpeas", "Kalamata olives", "Lemon juice", "Dried oregano"],
       "preparing_time": "15 min",
       "calories": "320 calories",
@@ -38,7 +38,7 @@
     {
       "recipe_id": 5,
       "recipe_name": "Zucchini Noodles",
-      "short_description": "A light and flavorful dish featuring zucchini noodles tossed in homemade pesto sauce.",
+      "short_description": "A light and flavorful dish featuring in homemade pesto sauce.",
       "ingredients": ["4 large zucchinis", "Fresh basil leaves", "Pine nuts", "Garlic","Pepper"],
       "preparing_time": "20 min",
       "calories": "230 calories",
@@ -47,7 +47,7 @@
     {
       "recipe_id": 6,
       "recipe_name": "Baked Chicken",
-      "short_description": "Tender baked chicken served with a colorful array of roasted vegetables.",
+      "short_description": "Tender baked chicken served with roasted vegetables.",
       "ingredients": ["4 chicken breasts",  "Olive oil", "Garlic powder", "Paprika", "Thyme"],
       "preparing_time": "40 min",
       "calories": "300 calories",
@@ -56,7 +56,7 @@
     {
       "recipe_id": 7,
       "recipe_name": "Spinach Mushroom",
-      "short_description": "A nutritious frittata filled with spinach, mushrooms, and creamy cheese.",
+      "short_description": "A nutritious frittata filled with creamy cheese.",
       "ingredients": ["6 eggs", "Spinach", "Mushrooms","Milk", "Cheddar cheese"],
       "preparing_time": "35 min",
       "calories": "280 calories",
@@ -65,7 +65,7 @@
     {
       "recipe_id": 8,
       "recipe_name": "Black Bean",
-      "short_description": "Hearty tacos filled with black beans, sweet potatoes, and flavorful spices.",
+      "short_description": "Hearty tacos filled with flavorful spices.",
       "ingredients": ["400g black beans", "2 sweet potatoes", "Tortillas", "Avocado",  "Cumin"],
       "preparing_time": "30 min",
       "calories": "270 calories",
@@ -74,7 +74,7 @@
     {
       "recipe_id": 9,
       "recipe_name": "Lemon Garlic",
-      "short_description": "A delightful pasta dish featuring succulent shrimp, garlic, and zesty lemon.",
+      "short_description": "A delightful pasta dish featuring and zesty lemon.",
       "ingredients": ["300g shrimp", "Pasta of your choice","Tortillas",  "Red pepper flakes","Fresh parsley"],
       "preparing_time": "25 min",
       "calories": "320 calories",
@@ -83,7 +83,7 @@
     {
       "recipe_id": 10,
       "recipe_name": "Berry Chia ",
-      "short_description": "A nutritious and satisfying pudding made with chia seeds and topped with fresh berries.",
+      "short_description": "A satisfying pudding topped with fresh berries.",
       "ingredients": ["Chia seeds", "Almond milk", "Honey or maple syrup", "Vanilla extract"],
       "preparing_time": "5 min",
       "calories": "200 calories",

@@ -13,15 +13,27 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 
   const [wantCook, setWantCook] = useState([])
+
   const [prepearing, setPrepearing] =useState([])
 
   const handlePrepearing = (cooking,recipe_id) =>{
+    const remaining = prepearing.filter(prepearing => prepearing.recipe_id !== recipe_id)
+    setPrepearing(remaining)
     const newPrepearing = [...prepearing, cooking]
     setPrepearing(newPrepearing)
     console.log('remove bookmark', recipe_id);
-    // const remainingWant = prepearing.filter(prepearing => prepearing.recipe_id !== recipe_id);
-    // setPrepearing(remainingWant)
   }
+
+  // const [prepearing, setPrepearing] = useState([]);
+
+  // const handlePrepearing = (cooking, recipe_id) => {
+  //   const remaining = prepearing.filter(preparation => preparation.recipe_id !== recipe_id);
+  //   const newRemaing = [...remaining, cooking];
+  //   const newPrepearing = [...prepearing, cooking];
+
+  //   setPrepearing(newPrepearing ,newRemaing);
+  // };
+
 
 
   const handleCooking = (cook) => {
@@ -42,12 +54,12 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Recipe></Recipe>
-      <div className='flex gap-5 mb-10'>
-        <Card 
-        handleCooking={handleCooking}
+      <div className='flex gap-5 mb-10 mt-10'>
+        <Card
+          handleCooking={handleCooking}
         ></Card>
         <Want wantCook={wantCook}
-        handlePrepearing={handlePrepearing} prepearing={prepearing}></Want>
+          handlePrepearing={handlePrepearing} prepearing={prepearing}></Want>
         <ToastContainer />
       </div>
     </div>

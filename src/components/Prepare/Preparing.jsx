@@ -11,7 +11,6 @@ const Preparing = ({prepare,idx}) => {
                         <td className="text-center">{recipe_name}</td>
                         <td className="text-center">{preparing_time}</td>
                         <td className="text-center">{calories}</td>
-                
                     </tr>
                 </tbody>
             </table>
