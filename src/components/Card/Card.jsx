@@ -11,7 +11,7 @@ const Card = ({handleCooking}) => {
             .then(data => setRecipe(data))
     }, [])
     return (
-        <div className="w-[60%] grid grid-cols-2 gap-5 ">
+        <div className="w-[65%] grid grid-cols-2 gap-5 ">
             {
                 recipe.map(recipe =>
                     <Cards

@@ -10,7 +10,7 @@ const Cards = ({ recipe, handleCooking }) => {
                 <figure className='px-3 pt-5'>
                     <img src={recipe_image} alt="" className='rounded-lg' />
                 </figure>
-                <div className="p-5">
+                <div className="p-5 ">
                     <h2 className="text-base font-bold">{recipe_name}</h2>
                     <p>{short_description}</p>
                     <div className="border-dashed border-2 my-2"></div>

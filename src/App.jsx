@@ -11,30 +11,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
-
   const [wantCook, setWantCook] = useState([])
-
   const [prepearing, setPrepearing] =useState([])
-
-  const handlePrepearing = (cooking,recipe_id) =>{
-    const remaining = prepearing.filter(prepearing => prepearing.recipe_id !== recipe_id)
-    setPrepearing(remaining)
-    const newPrepearing = [...prepearing, cooking]
-    setPrepearing(newPrepearing)
-    console.log('remove bookmark', recipe_id);
-  }
-
-  // const [prepearing, setPrepearing] = useState([]);
-
-  // const handlePrepearing = (cooking, recipe_id) => {
-  //   const remaining = prepearing.filter(preparation => preparation.recipe_id !== recipe_id);
-  //   const newRemaing = [...remaining, cooking];
-  //   const newPrepearing = [...prepearing, cooking];
-
-  //   setPrepearing(newPrepearing ,newRemaing);
-  // };
-
-
 
   const handleCooking = (cook) => {
     const isExist = wantCook.find(item => item.recipe_id == cook.recipe_id);
@@ -45,10 +23,14 @@ function App() {
     else {
       toast("Already Added");
     }
-
   }
-
-  return (
+  const handlePrepearing = (cooking) =>{
+    const newPrepearing = [...prepearing, cooking]
+    setPrepearing(newPrepearing)
+    const remaining = wantCook.filter(wantCook => wantCook.recipe_id !== cooking.recipe_id);
+    setWantCook(remaining)
+  }
+   return (
 
     <div className="container mx-auto w-[90%]">
       <Header></Header>
